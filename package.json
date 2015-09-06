@@ -1,0 +1,32 @@
+{
+  "name": "typed-assert",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core assert library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc test/test.ts --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-assert.git"
+  },
+  "keywords": [
+    "typescript",
+    "assert",
+    "typed",
+    "module",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-assert/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-assert#readme",
+  "devDependencies": {
+    "typescript": "^1.6.0-beta"
+  }
+}
